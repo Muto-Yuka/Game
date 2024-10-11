@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{5b228e6d-f512-4b4c-b4b8-5861d188fd36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\TitleScene">
+      <UniqueIdentifier>{42373c3b-8fc8-4016-a6b2-f28dc4475628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\PlayScene">
+      <UniqueIdentifier>{64c4823d-fe8b-4957-90e3-2eccb90d471d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\GameOverScene">
+      <UniqueIdentifier>{5b746a11-b70a-47a7-9480-09d0f8baa221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MyLib">
+      <UniqueIdentifier>{cfab372a-a276-403b-acea-9ebf3851a108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MyLib\BaseAnim">
+      <UniqueIdentifier>{a7d1734c-ad55-4764-ab6e-c73c751ce254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MyLib\Collision">
+      <UniqueIdentifier>{38168f87-a652-4c4e-943e-72b47ba5d79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MyLib\FPS">
+      <UniqueIdentifier>{925f07d6-5aeb-4584-b527-749a3d6d3c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MyLib\Input">
+      <UniqueIdentifier>{69484c61-fb4f-4030-8e3c-94c1268fb596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MyLib\Input\KeyInput">
+      <UniqueIdentifier>{98a6c36e-e414-4764-a6dd-7478519b2cfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MyLib\Fade">
+      <UniqueIdentifier>{69fe6d9e-cf65-4b82-a003-bafd3ecd6782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\OperationScene">
+      <UniqueIdentifier>{598848db-252d-4a7d-a725-316ce9b8dcd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Character">
+      <UniqueIdentifier>{28d68a56-b1f6-48c9-afbe-9ccb52fcf0a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Character\Player">
+      <UniqueIdentifier>{e573e2a8-8ed2-4643-b855-ab67b8465868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Character\Enemy">
+      <UniqueIdentifier>{d06c6d0f-d1eb-4d5c-8f83-64ddbfa45ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Character\Enemy\BreakEnemy">
+      <UniqueIdentifier>{4284276e-1c96-43b5-b9f4-8c90cff0b2c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Character\Enemy\GunEnemy">
+      <UniqueIdentifier>{bc03a06a-ba75-4e70-a1aa-df85e17ee21e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Character\Enemy\GunEnemy\DropWater">
+      <UniqueIdentifier>{1041045a-e7e2-467e-99ac-7c00bf53c66d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game">
+      <UniqueIdentifier>{c19e5cd5-c902-4a11-b730-6be6764f8b82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Camera">
+      <UniqueIdentifier>{3af762af-06ab-421f-b39b-0ee515591b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Shot">
+      <UniqueIdentifier>{7e146d13-821b-4be1-a4de-e6d3faab0ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Screen">
+      <UniqueIdentifier>{74663e79-1acb-4d8b-a30e-f5067eafc49c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Mission">
+      <UniqueIdentifier>{8586cd5d-f9d2-4cb6-b1e3-4a9b650b0537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Field">
+      <UniqueIdentifier>{ac72a2a4-c669-4936-8aa9-5f1f0ec66d4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Field\Ground">
+      <UniqueIdentifier>{9d9c3c9b-caf1-4b4b-a2b7-7938b45ad354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Field\Sky">
+      <UniqueIdentifier>{eae4997a-8f38-4154-af9d-d1777f2c57aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Hit">
+      <UniqueIdentifier>{ffedb872-0e63-4e7a-bc5a-b258c16af0bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Item">
+      <UniqueIdentifier>{dd4ccfe8-cb29-4db5-801f-b7d07a43a5b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Camera\PlayCam">
+      <UniqueIdentifier>{19d6ccbf-6db4-4241-a4da-e6e31b9c493b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Camera\DebugCam">
+      <UniqueIdentifier>{56f6c4e7-b96e-4337-b9ed-9aae355eaa19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Item\Apple">
+      <UniqueIdentifier>{4ba62c31-94ff-42a4-adc7-1697226c1208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Item\Straw">
+      <UniqueIdentifier>{006b42bc-9c3f-44e5-a796-2dd85e24b819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Item\Tree">
+      <UniqueIdentifier>{e1c022db-f346-43ea-a3de-f34e49fdd35c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Item\Water">
+      <UniqueIdentifier>{d9607d3b-a2ee-4031-b07a-a664ed00f9f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Item\Branch">
+      <UniqueIdentifier>{616604f7-331b-4655-a58d-7d29a0d2a79a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Item\Water\Number">
+      <UniqueIdentifier>{395dec89-cf5f-44c8-bf18-f8d13b8b962b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MyLib\Math">
+      <UniqueIdentifier>{72fca681-d1de-4a14-a83e-ac77c7f3ca10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MyLib\Math\Vector">
+      <UniqueIdentifier>{53cdd1d0-9b40-483b-8fe0-a3fed967763e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MyLib\Math\Matrix">
+      <UniqueIdentifier>{e8efada3-18f9-4b65-bc8b-7a8422969920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MyLib\Score">
+      <UniqueIdentifier>{d14d3e54-a79d-40be-8099-0b99ccf4c533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MyLib\Input\PadInput">
+      <UniqueIdentifier>{84b4a669-934c-4fb5-ae1e-b933863d61b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\ClearScene">
+      <UniqueIdentifier>{87ef378a-8476-4c8b-8a49-302e8f02ede7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MyLib\Sound">
+      <UniqueIdentifier>{a617c163-3240-4789-a5b0-8e323f8d366a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\Title\TItleScene.cpp">
+      <Filter>ソース ファイル\Scene\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\PlayScene\SceneBase.cpp">
+      <Filter>ソース ファイル\Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\PlayScene\Day2PlayerScene.cpp">
+      <Filter>ソース ファイル\Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\PlayScene\Day1PlayScene.cpp">
+      <Filter>ソース ファイル\Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\SceneManager.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\GameOver\GameOverScene.cpp">
+      <Filter>ソース ファイル\Scene\GameOverScene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyLib\Collision\Collision.cpp">
+      <Filter>ソース ファイル\MyLib\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyLib\FPS\FPS.cpp">
+      <Filter>ソース ファイル\MyLib\FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyLib\BaseAnim\BaseAnim.cpp">
+      <Filter>ソース ファイル\MyLib\BaseAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyLib\Input\Input.cpp">
+      <Filter>ソース ファイル\MyLib\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyLib\Input\KeyInput\KeyInput.cpp">
+      <Filter>ソース ファイル\MyLib\Input\KeyInput</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyLib\Fade\Fade.cpp">
+      <Filter>ソース ファイル\MyLib\Fade</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\Operation\Operation.cpp">
+      <Filter>ソース ファイル\Scene\OperationScene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Character\Player\Player.cpp">
+      <Filter>ソース ファイル\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Character\Enemy\GunEnemy\GunEnemy.cpp">
+      <Filter>ソース ファイル\Character\Enemy\GunEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Character\Enemy\BreakEnemy\BreakEnemy.cpp">
+      <Filter>ソース ファイル\Character\Enemy\BreakEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Character\Enemy\EnemyManager.cpp">
+      <Filter>ソース ファイル\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Character\Enemy\BaseEnemy.cpp">
+      <Filter>ソース ファイル\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Character\Enemy\GunEnemy\DropWater\DropWater.cpp">
+      <Filter>ソース ファイル\Character\Enemy\GunEnemy\DropWater</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Shot\Shot.cpp">
+      <Filter>ソース ファイル\Game\Shot</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Shot\ShotManager.cpp">
+      <Filter>ソース ファイル\Game\Shot</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Screen\Screen.cpp">
+      <Filter>ソース ファイル\Game\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Mission\Mission.cpp">
+      <Filter>ソース ファイル\Game\Mission</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Mission\BaseMission.cpp">
+      <Filter>ソース ファイル\Game\Mission</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Field\FieldManager.cpp">
+      <Filter>ソース ファイル\Game\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Field\Sky\Sky.cpp">
+      <Filter>ソース ファイル\Game\Field\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Field\Ground\Ground.cpp">
+      <Filter>ソース ファイル\Game\Field\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Hit\Hit.cpp">
+      <Filter>ソース ファイル\Game\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Camera\CameraManager.cpp">
+      <Filter>ソース ファイル\Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Camera\PlayCam\PlayCam.cpp">
+      <Filter>ソース ファイル\Game\Camera\PlayCam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Camera\DebugCam\DebugCam.cpp">
+      <Filter>ソース ファイル\Game\Camera\DebugCam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Item\ItemManager.cpp">
+      <Filter>ソース ファイル\Game\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Item\BaseItem.cpp">
+      <Filter>ソース ファイル\Game\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Item\Apple\Apple.cpp">
+      <Filter>ソース ファイル\Game\Item\Apple</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Item\Branch\Branch.cpp">
+      <Filter>ソース ファイル\Game\Item\Branch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Item\Straw\Straw.cpp">
+      <Filter>ソース ファイル\Game\Item\Straw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Item\Tree\Tree.cpp">
+      <Filter>ソース ファイル\Game\Item\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Item\Water\Number\Number.cpp">
+      <Filter>ソース ファイル\Game\Item\Water\Number</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Item\Water\Water.cpp">
+      <Filter>ソース ファイル\Game\Item\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Character\Player\PlayAnim.cpp">
+      <Filter>ソース ファイル\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyLib\Math\Math.cpp">
+      <Filter>ソース ファイル\MyLib\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyLib\Score\Score.cpp">
+      <Filter>ソース ファイル\MyLib\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyLib\Math\Matrix\MyMatrix.cpp">
+      <Filter>ソース ファイル\MyLib\Math\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyLib\Math\Vector\MyVector.cpp">
+      <Filter>ソース ファイル\MyLib\Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyLib\Input\PadInput\PadInput.cpp">
+      <Filter>ソース ファイル\MyLib\Input\PadInput</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\Clear\ClearScene.cpp">
+      <Filter>ソース ファイル\Scene\ClearScene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyLib\Sound\Sound.cpp">
+      <Filter>ソース ファイル\MyLib\Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Scene\SceneManager.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\Title\TitleScene.h">
+      <Filter>ソース ファイル\Scene\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\PlayScene\SceneBase.h">
+      <Filter>ソース ファイル\Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\PlayScene\Day2PlayScene.h">
+      <Filter>ソース ファイル\Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\PlayScene\Day1PlayScene.h">
+      <Filter>ソース ファイル\Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\GameOver\GameOverScene.h">
+      <Filter>ソース ファイル\Scene\GameOverScene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyLib\Collision\Collision.h">
+      <Filter>ソース ファイル\MyLib\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyLib\FPS\FPS.h">
+      <Filter>ソース ファイル\MyLib\FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyLib\BaseAnim\BaseAnim.h">
+      <Filter>ソース ファイル\MyLib\BaseAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyLib\Input\Input.h">
+      <Filter>ソース ファイル\MyLib\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyLib\Input\KeyInput\KeyInput.h">
+      <Filter>ソース ファイル\MyLib\Input\KeyInput</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyLib\Fade\Fade.h">
+      <Filter>ソース ファイル\MyLib\Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\Operation\Operation.h">
+      <Filter>ソース ファイル\Scene\OperationScene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Character\Player\Player.h">
+      <Filter>ソース ファイル\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Character\Enemy\GunEnemy\GunEnemy.h">
+      <Filter>ソース ファイル\Character\Enemy\GunEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Character\Enemy\BreakEnemy\BreakEnemy.h">
+      <Filter>ソース ファイル\Character\Enemy\BreakEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Character\Enemy\EnemyManager.h">
+      <Filter>ソース ファイル\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Character\Enemy\BaseEnemy.h">
+      <Filter>ソース ファイル\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Character\Enemy\GunEnemy\DropWater\DropWater.h">
+      <Filter>ソース ファイル\Character\Enemy\GunEnemy\DropWater</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Shot\Shot.h">
+      <Filter>ソース ファイル\Game\Shot</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Shot\ShotManager.h">
+      <Filter>ソース ファイル\Game\Shot</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Screen\Screen.h">
+      <Filter>ソース ファイル\Game\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Mission\Mission.h">
+      <Filter>ソース ファイル\Game\Mission</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Mission\BaseMission.h">
+      <Filter>ソース ファイル\Game\Mission</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Field\FieldManager.h">
+      <Filter>ソース ファイル\Game\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Field\Sky\Sky.h">
+      <Filter>ソース ファイル\Game\Field\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Field\Ground\Ground.h">
+      <Filter>ソース ファイル\Game\Field\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Hit\Hit.h">
+      <Filter>ソース ファイル\Game\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Camera\CameraManager.h">
+      <Filter>ソース ファイル\Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Camera\PlayCam\PlayCam.h">
+      <Filter>ソース ファイル\Game\Camera\PlayCam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Camera\DebugCam\DebugCam.h">
+      <Filter>ソース ファイル\Game\Camera\DebugCam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Item\ItemManager.h">
+      <Filter>ソース ファイル\Game\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Item\BaseItem.h">
+      <Filter>ソース ファイル\Game\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Item\Apple\Apple.h">
+      <Filter>ソース ファイル\Game\Item\Apple</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Item\Branch\Branch.h">
+      <Filter>ソース ファイル\Game\Item\Branch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Item\Straw\Straw.h">
+      <Filter>ソース ファイル\Game\Item\Straw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Item\Tree\Tree.h">
+      <Filter>ソース ファイル\Game\Item\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Item\Water\Number\Number.h">
+      <Filter>ソース ファイル\Game\Item\Water\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Item\Water\Water.h">
+      <Filter>ソース ファイル\Game\Item\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Character\Player\PlayAnim.h">
+      <Filter>ソース ファイル\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyLib\Math\Math.h">
+      <Filter>ソース ファイル\MyLib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyLib\Score\Score.h">
+      <Filter>ソース ファイル\MyLib\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyLib\Math\Matrix\MyMatrix.h">
+      <Filter>ソース ファイル\MyLib\Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyLib\Math\Vector\MyVector.h">
+      <Filter>ソース ファイル\MyLib\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyLib\Input\PadInput\PadInput.h">
+      <Filter>ソース ファイル\MyLib\Input\PadInput</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\Clear\ClearScene.h">
+      <Filter>ソース ファイル\Scene\ClearScene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyLib\Sound\Sound.h">
+      <Filter>ソース ファイル\MyLib\Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
